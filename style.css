@@ -1,0 +1,96 @@
+body {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif; /* Appliquer la police Poppins au corps du texte */
+}
+
+.center-content {
+    text-align: center;
+}
+
+.center-buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif; /* Appliquer la police Poppins aux boutons */
+    font-weight: bold; /* Appliquer le style en gras */
+}
+
+button.yes {
+    background-color: green;
+}
+
+button.no {
+    background-color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+#happy-video {
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+#chippi-video {
+    width: 400px; 
+    height: auto;
+    max-width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+#image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+
+
+
+#image1 {
+    width: 500px;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+#mort {
+    width: 500px;
+    height: 700px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+
+
